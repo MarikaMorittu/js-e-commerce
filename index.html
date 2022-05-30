@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- container -->
+    <div class="container">
+      <!-- header -->
+      <header>
+        <!-- left header -->
+        <div class="left__header">
+          <!-- logo -->
+          <div class="logo"><img src="./img/logo.svg" alt="logo" /></div>
+          <!-- navbar -->
+          <div class="navbar">
+            <ul>
+              <li>Collections</li>
+              <li>Men</li>
+              <li>Women</li>
+              <li>About</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+        </div>
+        <!-- right header -->
+        <div class="right__header">
+          <div>
+            <img class="icon__cart" src="./img/icon-cart.svg" alt="icon-cart" />
+          </div>
+          <div>
+            <img
+              class="image__avatar"
+              src="./img/image-avatar.png"
+              alt="image-avatar"
+            />
+          </div>
+        </div>
+      </header>
+      <!-- main container -->
+      <main>
+        <!-- container card -->
+        <div class="container__cards">
+          <!-- card -->
+          <div class="product">
+            <img
+              class="img-shose"
+              src="./img/image-product-1.jpg"
+              alt="image-product-1"
+              id="img1"
+            />
+            <img
+              class="img-shose display-none"
+              src="./img/image-product-2.jpg"
+              alt="image-product-1"
+              id="img2"
+            />
+            <img
+              class="img-shose display-none"
+              src="./img/image-product-3.jpg"
+              alt="image-product-1"
+              id="img3"
+            />
+            <img
+              class="img-shose display-none"
+              src="./img/image-product-4.jpg"
+              alt="image-product-1"
+              id="img4"
+            />
+          </div>
+          <!-- card thumbnail -->
+          <div class="image">
+            <div class="card">
+              <img
+                src="./img/image-product-1-thumbnail.jpg"
+                alt="image-product-1"
+                id="img-th1"
+              />
+            </div>
+            <div class="card">
+              <img
+                src="./img/image-product-2-thumbnail.jpg"
+                alt="image-product-2"
+                id="img-th2"
+              />
+            </div>
+            <div class="card">
+              <img
+                src="./img/image-product-3-thumbnail.jpg"
+                alt="image-product-3"
+                id="img-th3"
+              />
+            </div>
+            <div class="card">
+              <img
+                src="./img/image-product-4-thumbnail.jpg"
+                alt="image-product-4"
+                id="img-th4"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- container info -->
+        <div class="container__info">
+          <div><h4>sneaker company</h4></div>
+          <div><h2>Fall Limited Edition Sneaker</h2></div>
+          <div>
+            <p>
+              These low-profile sneakers are you perfect casual wear companion.
+              Featuring a durable rubber outer sole, they'll withstand
+              everything the weather can offer
+            </p>
+          </div>
+          <div class="price">
+            <p>$125.00</p>
+            <span>50%</span>
+          </div>
+          <p class="sconto">$250.00</p>
+          <!-- button section -->
+          <div class="button__section">
+            <div class="add__cart">
+              <img id="minus" src="./img/icon-minus.svg" alt="icon-minus" />
+              <input type="number" value="0" id="number" />
+              <img id="plus" src="./img/icon-plus.svg" alt="icon-plus" />
+            </div>
+            <button class="button__cart">
+              <img src="./img/icon-cart.svg" alt="icon-cart" /> Add to cart
+            </button>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

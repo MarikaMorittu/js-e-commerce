@@ -1,0 +1,157 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Kumbh Sans, sans-serif;
+}
+/* UTILITIES */
+body {
+  background: black;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding: 24px 0;
+  border-bottom: 1px solid #e7e8e8;
+}
+main {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 64px 0;
+}
+/* CONTAINER */
+.container {
+  background: white;
+  margin: 0 auto;
+  width: 70%;
+}
+/* HEADER */
+.left__header {
+  display: flex;
+  align-items: center;
+}
+.left__header ul {
+  display: flex;
+  list-style: none;
+  padding: 0 24px;
+}
+.left__header li {
+  padding: 0 8px;
+}
+.right__header {
+  display: flex;
+  align-items: center;
+}
+.right__header .image__avatar {
+  width: 50px;
+  height: 50px;
+  margin-left: 16px;
+}
+/* CONTAINER CARD */
+
+.product img {
+  width: 400px;
+  border-radius: 10px;
+}
+.image {
+  display: flex;
+}
+.image .card {
+  margin: 24px 4px;
+}
+.image img {
+  width: 94px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+}
+.card img:hover {
+  opacity: 0.4;
+  border: 2px solid orangered;
+}
+
+/* CONTAINER INFO  */
+.container__info {
+  padding: 64px 0 24px 64px;
+}
+h4 {
+  color: orange;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 32px;
+  padding: 12px 0;
+}
+.container__info p {
+  color: #c1c5c9;
+}
+.price {
+  display: flex;
+  align-items: center;
+}
+.price p {
+  font-size: 32px;
+  margin: 12px 0;
+  color: black;
+}
+.price span {
+  background: #faece0;
+  padding: 4px;
+  color: orange;
+  border: 1px solid orange;
+  border-radius: 5px;
+  height: 28px;
+  margin-left: 12px;
+}
+.sconto {
+  text-decoration: line-through;
+}
+.add__cart button {
+  border: none;
+  padding: 8px;
+  background: #f7f8fd;
+}
+.add__cart {
+  background: #f7f8fd;
+  width: 140px;
+  padding: 4px;
+  text-align: center;
+  margin-right: 12px;
+}
+.add__cart input {
+  width: 28px;
+  background-color: #f7f8fd;
+  border: none;
+  text-align: center;
+}
+.add__cart img {
+  padding: 12px;
+  vertical-align: middle;
+}
+.button__cart {
+  background: rgba(255, 68, 0, 0.671);
+  color: white;
+  padding: 8px;
+  border: transparent;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 200px;
+}
+.button__cart img {
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 16px;
+}
+.button__section {
+  display: flex;
+  margin-top: 24px;
+}
+
+/* J */
+.display-none {
+  display: none;
+}
