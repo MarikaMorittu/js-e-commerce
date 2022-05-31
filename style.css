@@ -54,26 +54,18 @@ main {
 }
 /* CONTAINER CARD */
 
-.product img {
+.container__big__image img {
   width: 400px;
-  border-radius: 10px;
+  border-radius: 12px;
 }
-.image {
+.container__thumbnail__image {
   display: flex;
 }
-.image .card {
-  margin: 24px 4px;
+.container__thumbnail__image img {
+  margin: 4px;
+  border-radius: 8px;
+  height: 90px;
 }
-.image img {
-  width: 94px;
-  border-radius: 10px;
-  border: 2px solid transparent;
-}
-.card img:hover {
-  opacity: 0.4;
-  border: 2px solid orangered;
-}
-
 /* CONTAINER INFO  */
 .container__info {
   padding: 64px 0 24px 64px;
@@ -152,6 +144,6 @@ h2 {
 }
 
 /* J */
-.display-none {
+/* .display-none {
   display: none;
-}
+} */
